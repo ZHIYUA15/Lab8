@@ -1,20 +1,19 @@
 package com.example.lab8;
 
 public class City {
-
     private String city;
     private String province;
 
-    public City(String city, String province){
+    public City(String city, String province) {
         this.city = city;
         this.province = province;
     }
 
-    String getCityName(){
+    String getCityName() {
         return this.city;
     }
 
-    String getProvinceName(){
+    String getProvinceName() {
         return this.province;
     }
 }
